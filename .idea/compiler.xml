@@ -9,6 +9,7 @@
         <module name="eurekademo" />
         <module name="eureka-producer" />
         <module name="springclouddemo" />
+        <module name="eureka-consumer" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -17,6 +18,7 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="eureka-consumer" options="-parameters" />
       <module name="eureka-producer" options="-parameters" />
       <module name="eurekademo" options="-parameters" />
     </option>
