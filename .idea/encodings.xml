@@ -1,11 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="Encoding" defaultCharsetForPropertiesFiles="UTF-8">
+    <file url="file://$PROJECT_DIR$/eureka-comsumer-feign/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/eureka-comsumer-feign/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/eureka-consumer" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/eureka-consumer-ribbon" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/eureka-consumer-ribbon/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/eureka-consumer/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/eureka-producer" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/eureka-producer/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/eureka-producer/src/main/resources/application.yml" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/eurekademo" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/eurekademo/src/main/java" charset="UTF-8" />
     <file url="PROJECT" charset="UTF-8" />
   </component>
 </project>
