@@ -6,4 +6,5 @@
 - eurekademo:EurekaServer端
 - eureka-producer:EurekaClient端的生产者
 - eureka-consumer:EurekaClient端的消费者
-- eureka-consumer:EurekaClient端消费者用于测试Ribbon
+- eureka-consumer-ribbon:EurekaClient端消费者,集成了Ribbon负载均衡的功能
+- eureka-consumer-feign:EurekaClient端消费者,集成了Feign负载均衡和Hystrix熔断,降级等功能
