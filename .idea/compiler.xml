@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="eureka-consumer" />
         <module name="eureka-consumer-feign" />
+        <module name="hystrix-dashboard" />
         <module name="eurekademo" />
         <module name="springclouddemo" />
         <module name="eureka-consumer-ribbon" />
@@ -29,6 +30,7 @@
       <module name="eureka-consumer-robbin" options="-parameters" />
       <module name="eureka-producer" options="-parameters" />
       <module name="eurekademo" options="-parameters" />
+      <module name="hystrix-dashboard" options="-parameters" />
     </option>
   </component>
 </project>

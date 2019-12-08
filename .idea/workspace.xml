@@ -2,10 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="78b20b02-f4df-489b-b5d7-d35600db690a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/eureka-comsumer-feign/src/main/java/com/xmh/springcloud/eurekaconsumerfeign/impl/HelloRemoteHystrix.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hystrix-dashboard/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hystrix-dashboard/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hystrix-dashboard/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hystrix-dashboard/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hystrix-dashboard/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hystrix-dashboard/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hystrix-dashboard/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hystrix-dashboard/src/main/java/com/xmh/springcloud/hystrixdashboard/HystrixDashboardApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hystrix-dashboard/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hystrix-dashboard/src/test/java/com/xmh/springcloud/hystrixdashboard/HystrixDashboardApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eureka-comsumer-feign/src/main/java/com/xmh/springcloud/eurekaconsumerfeign/HelloRemote.java" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-comsumer-feign/src/main/java/com/xmh/springcloud/eurekaconsumerfeign/HelloRemote.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eureka-comsumer-feign/src/main/java/com/xmh/springcloud/eurekaconsumerfeign/controller/HelloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-comsumer-feign/src/main/java/com/xmh/springcloud/eurekaconsumerfeign/controller/HelloController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka-comsumer-feign/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-comsumer-feign/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka-comsumer-feign/src/main/java/com/xmh/springcloud/eurekaconsumerfeign/EurekaConsumerFeignApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-comsumer-feign/src/main/java/com/xmh/springcloud/eurekaconsumerfeign/EurekaConsumerFeignApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/eureka-comsumer-feign/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-comsumer-feign/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -77,7 +89,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.EurekaProducerApplication">
+  <component name="RunManager" selected="Spring Boot.EurekaConsumerFeignApplication">
     <configuration name="EurekaConsumerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="eureka-consumer" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.xmh.myspringcloud.eurekaconsumer.EurekaConsumerApplication" />
@@ -115,12 +127,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="HystrixDashboardApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="hystrix-dashboard" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.xmh.springcloud.hystrixdashboard.HystrixDashboardApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Spring Boot.EurekaConsumerApplication" />
       <item itemvalue="Spring Boot.EurekaDemoApplication" />
       <item itemvalue="Spring Boot.EurekaConsumerRibbonApplication" />
       <item itemvalue="Spring Boot.EurekaProducerApplication" />
       <item itemvalue="Spring Boot.EurekaConsumerFeignApplication" />
+      <item itemvalue="Spring Boot.HystrixDashboardApplication" />
     </list>
   </component>
   <component name="ServiceViewManager">
@@ -163,7 +183,7 @@
       <workItem from="1575655767373" duration="1225000" />
       <workItem from="1575657456097" duration="947000" />
       <workItem from="1575776218785" duration="3388000" />
-      <workItem from="1575801787833" duration="2184000" />
+      <workItem from="1575801787833" duration="5665000" />
     </task>
     <task id="LOCAL-00001" summary="增加eureka-producer">
       <created>1575602184228</created>
@@ -207,7 +227,14 @@
       <option name="project" value="LOCAL" />
       <updated>1575802546404</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="为Eureka-consumer-feign增加Hystrix">
+      <created>1575804481681</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1575804481681</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TodoView">
@@ -242,7 +269,8 @@
     <MESSAGE value="修改application.yml,HelloController.java" />
     <MESSAGE value="增加Eureka-consumer-ribbon" />
     <MESSAGE value="增加Eureka-consumer-feign" />
-    <option name="LAST_COMMIT_MESSAGE" value="增加Eureka-consumer-feign" />
+    <MESSAGE value="为Eureka-consumer-feign增加Hystrix" />
+    <option name="LAST_COMMIT_MESSAGE" value="为Eureka-consumer-feign增加Hystrix" />
   </component>
   <component name="WindowStateProjectService">
     <state x="356" y="178" width="1012" height="684" key="#Project_Structure" timestamp="1575802376988">
@@ -257,46 +285,46 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="765" y="229" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1575803898699" />
-    <state x="516" y="111" key="CommitChangelistDialog2" timestamp="1575802544994">
+    <state x="516" y="111" key="CommitChangelistDialog2" timestamp="1575804480542">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="516" y="111" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1575802544994" />
+    <state x="516" y="111" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1575804480542" />
     <state x="740" y="209" key="FileChooserDialogImpl" timestamp="1575802494966">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="209" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1575802494966" />
-    <state width="1293" height="282" key="GridCell.Tab.0.bottom" timestamp="1575804219996">
+    <state width="619" height="281" key="GridCell.Tab.0.bottom" timestamp="1575807779212">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1293" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1575804219996" />
-    <state width="1293" height="282" key="GridCell.Tab.0.center" timestamp="1575804219996">
+    <state width="619" height="281" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1575807779212" />
+    <state width="619" height="281" key="GridCell.Tab.0.center" timestamp="1575807779211">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1293" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1575804219996" />
-    <state width="1293" height="282" key="GridCell.Tab.0.left" timestamp="1575804219996">
+    <state width="619" height="281" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1575807779211" />
+    <state width="619" height="281" key="GridCell.Tab.0.left" timestamp="1575807779211">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1293" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1575804219996" />
-    <state width="1293" height="282" key="GridCell.Tab.0.right" timestamp="1575804219996">
+    <state width="619" height="281" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1575807779211" />
+    <state width="619" height="281" key="GridCell.Tab.0.right" timestamp="1575807779211">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1293" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1575804219996" />
-    <state width="1293" height="282" key="GridCell.Tab.1.bottom" timestamp="1575804219996">
+    <state width="619" height="281" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1575807779211" />
+    <state width="619" height="281" key="GridCell.Tab.1.bottom" timestamp="1575807779212">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1293" height="282" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1575804219996" />
-    <state width="1293" height="282" key="GridCell.Tab.1.center" timestamp="1575804219996">
+    <state width="619" height="281" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1575807779212" />
+    <state width="619" height="281" key="GridCell.Tab.1.center" timestamp="1575807779212">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1293" height="282" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1575804219996" />
-    <state width="1293" height="282" key="GridCell.Tab.1.left" timestamp="1575804219996">
+    <state width="619" height="281" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1575807779212" />
+    <state width="619" height="281" key="GridCell.Tab.1.left" timestamp="1575807779212">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1293" height="282" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1575804219996" />
-    <state width="1293" height="282" key="GridCell.Tab.1.right" timestamp="1575804219996">
+    <state width="619" height="281" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1575807779212" />
+    <state width="619" height="281" key="GridCell.Tab.1.right" timestamp="1575807779212">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1293" height="282" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1575804219996" />
+    <state width="619" height="281" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1575807779212" />
     <state x="600" y="217" key="NewModule_or_Project.wizard" timestamp="1575801927753">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -305,10 +333,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="440" y="94" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1575802165369" />
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1575802548454">
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1575804484169">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1575802548454" />
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1575804484169" />
     <state x="759" y="297" key="chooseDestDirectoryDialog" timestamp="1575801992514">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -317,9 +345,13 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="640" y="343" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1575801799825" />
-    <state x="334" y="129" key="new project wizard" timestamp="1575798868807">
+    <state x="626" y="310" key="git4idea.merge.GitPullDialog" timestamp="1575805618833">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="334" y="129" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1575798868807" />
+    <state x="626" y="310" key="git4idea.merge.GitPullDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1575805618833" />
+    <state x="334" y="129" key="new project wizard" timestamp="1575805749116">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="334" y="129" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1575805749116" />
   </component>
 </project>

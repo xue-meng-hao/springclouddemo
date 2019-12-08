@@ -1,17 +1,17 @@
-package com.xmh.springcloud.eurekaconsumerfeign;
+package com.xmh.springcloud.hystrixdashboard;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.cloud.netflix.hystrix.EnableHystrix;
+import org.springframework.cloud.netflix.hystrix.dashboard.EnableHystrixDashboard;
 import org.springframework.cloud.openfeign.EnableFeignClients;
 
+@EnableHystrixDashboard
 @EnableFeignClients
-@EnableHystrix
 @SpringBootApplication
-public class EurekaConsumerFeignApplication {
+public class HystrixDashboardApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(EurekaConsumerFeignApplication.class, args);
+        SpringApplication.run(HystrixDashboardApplication.class, args);
     }
 
 }
