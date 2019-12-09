@@ -8,3 +8,4 @@
 - eureka-consumer:EurekaClient端的消费者
 - eureka-consumer-ribbon:EurekaClient端消费者,集成了Ribbon负载均衡的功能
 - eureka-consumer-feign:EurekaClient端消费者,集成了Feign进行服务调用,并集成Hystrix进行容错保护
+- hystrix-dashboard监控应用数据
