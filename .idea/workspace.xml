@@ -1,21 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="78b20b02-f4df-489b-b5d7-d35600db690a" name="Default Changelist" comment="增加Hystrix-dashboard用于监控数据">
-      <change afterPath="$PROJECT_DIR$/turbin/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/turbin/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/turbin/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/turbin/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/turbin/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/turbin/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/turbin/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/turbin/src/main/java/com/xmh/myspringcloud/turbin/TurbinApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/turbin/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/turbin/src/test/java/com/xmh/myspringcloud/turbin/TurbinApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="78b20b02-f4df-489b-b5d7-d35600db690a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/eureka_consumer_feign_Web_exploded.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka-comsumer-feign/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-comsumer-feign/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,7 +59,7 @@
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="project.structure.side.proportion" value="0.30689654" />
     <property name="settings.editor.selected.configurable" value="File.Encoding" />
   </component>
   <component name="RecentsManager">
@@ -86,7 +75,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.HystrixDashboardApplication">
+  <component name="RunManager" selected="Spring Boot.EurekaConsumerFeignApplication">
     <configuration name="EurekaConsumerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="eureka-consumer" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.xmh.myspringcloud.eurekaconsumer.EurekaConsumerApplication" />
@@ -124,28 +113,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HystrixDashboardApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="hystrix-dashboard" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.xmh.springcloud.hystrixdashboard.HystrixDashboardApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TurbinApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="turbin" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.xmh.myspringcloud.turbin.TurbinApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
       <item itemvalue="Spring Boot.EurekaConsumerApplication" />
       <item itemvalue="Spring Boot.EurekaDemoApplication" />
       <item itemvalue="Spring Boot.EurekaConsumerRibbonApplication" />
       <item itemvalue="Spring Boot.EurekaProducerApplication" />
       <item itemvalue="Spring Boot.EurekaConsumerFeignApplication" />
-      <item itemvalue="Spring Boot.HystrixDashboardApplication" />
-      <item itemvalue="Spring Boot.TurbinApplication" />
     </list>
   </component>
   <component name="ServiceViewManager">
@@ -157,16 +130,6 @@
               <path>
                 <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
                 <item name="Spring Boot" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-              </path>
-              <path>
-                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-                <item name="Spring Boot" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-                <item name="Running" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-              </path>
-              <path>
-                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-                <item name="Spring Boot" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-                <item name="Finished" type="7427dc5b:ServiceModel$ServiceGroupNode" />
               </path>
             </expand>
             <select />
@@ -296,9 +259,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="356" y="178" width="1012" height="684" key="#Project_Structure/0.0.1920.1040@0.0.1920.1040" timestamp="1575802376988" />
-    <state x="414" y="174" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1575802460449">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="274" y="38" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1577342768526">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
+    <state x="274" y="38" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1577342768526" />
     <state x="414" y="174" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1575802460449" />
     <state x="765" y="229" key="#com.intellij.ide.util.MemberChooser" timestamp="1575803898699">
       <screen x="0" y="0" width="1920" height="1040" />
@@ -348,9 +312,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="600" y="217" key="NewModule_or_Project.wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1575801927753" />
-    <state x="440" y="94" key="SettingsEditor" timestamp="1575802165369">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="136" y="0" key="SettingsEditor" timestamp="1577343171087">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
+    <state x="136" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1577343171087" />
     <state x="440" y="94" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1575802165369" />
     <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1575808401780">
       <screen x="0" y="0" width="1920" height="1040" />
@@ -368,6 +333,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="626" y="310" key="git4idea.merge.GitPullDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1575805618833" />
+    <state x="476" y="228" key="git4idea.rebase.GitRebaseDialog" timestamp="1577342725602">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="476" y="228" key="git4idea.rebase.GitRebaseDialog/0.0.1366.728@0.0.1366.728" timestamp="1577342725602" />
     <state x="334" y="129" key="new project wizard" timestamp="1575902327898">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
