@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="78b20b02-f4df-489b-b5d7-d35600db690a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/eureka_consumer_feign_Web_exploded.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eureka-comsumer-feign/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-comsumer-feign/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,7 +54,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/eureka-comsumer-feign/src/main/java/com/xmh/springcloud" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/eureka-comsumer-feign" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/eureka-consumer-feign" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -158,6 +158,7 @@
       <workItem from="1575776218785" duration="3388000" />
       <workItem from="1575801787833" duration="7059000" />
       <workItem from="1575899376267" duration="2808000" />
+      <workItem from="1577343470292" duration="928000" />
     </task>
     <task id="LOCAL-00001" summary="增加eureka-producer">
       <created>1575602184228</created>
@@ -215,7 +216,14 @@
       <option name="project" value="LOCAL" />
       <updated>1575808399155</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="修改项目文件夹名">
+      <created>1577343388028</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1577343388029</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TodoView">
@@ -252,29 +260,32 @@
     <MESSAGE value="增加Eureka-consumer-feign" />
     <MESSAGE value="为Eureka-consumer-feign增加Hystrix" />
     <MESSAGE value="增加Hystrix-dashboard用于监控数据" />
-    <option name="LAST_COMMIT_MESSAGE" value="增加Hystrix-dashboard用于监控数据" />
+    <MESSAGE value="修改项目文件夹名" />
+    <option name="LAST_COMMIT_MESSAGE" value="修改项目文件夹名" />
   </component>
   <component name="WindowStateProjectService">
     <state x="356" y="178" width="1012" height="684" key="#Project_Structure" timestamp="1575802376988">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="356" y="178" width="1012" height="684" key="#Project_Structure/0.0.1920.1040@0.0.1920.1040" timestamp="1575802376988" />
-    <state x="274" y="38" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1577342768526">
+    <state x="274" y="38" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1577345029482">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="274" y="38" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1577342768526" />
+    <state x="274" y="38" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1577345029482" />
     <state x="414" y="174" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1575802460449" />
     <state x="765" y="229" key="#com.intellij.ide.util.MemberChooser" timestamp="1575803898699">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="765" y="229" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1575803898699" />
-    <state x="516" y="111" key="CommitChangelistDialog2" timestamp="1575813747461">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="0" y="0" key="CommitChangelistDialog2" timestamp="1577343385936">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
+    <state x="0" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1577343385936" />
     <state x="516" y="111" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1575813747461" />
-    <state x="740" y="209" key="FileChooserDialogImpl" timestamp="1575802494966">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="526" y="108" key="FileChooserDialogImpl" timestamp="1577345075330">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
+    <state x="526" y="108" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1577345075330" />
     <state x="740" y="209" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1575802494966" />
     <state width="1293" height="281" key="GridCell.Tab.0.bottom" timestamp="1575902234713">
       <screen x="0" y="0" width="1920" height="1040" />
@@ -308,26 +319,29 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1293" height="281" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1575902234713" />
-    <state x="600" y="217" key="NewModule_or_Project.wizard" timestamp="1575801927753">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="600" y="217" key="NewModule_or_Project.wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1575801927753" />
-    <state x="136" y="0" key="SettingsEditor" timestamp="1577343171087">
+    <state x="427" y="123" key="NewModule_or_Project.wizard" timestamp="1577345078031">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="136" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1577343171087" />
-    <state x="440" y="94" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1575802165369" />
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1575808401780">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="427" y="123" key="NewModule_or_Project.wizard/0.0.1366.728@0.0.1366.728" timestamp="1577345078031" />
+    <state x="600" y="217" key="NewModule_or_Project.wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1575801927753" />
+    <state x="136" y="0" key="SettingsEditor" timestamp="1577345082854">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
+    <state x="136" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1577345082854" />
+    <state x="440" y="94" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1575802165369" />
+    <state x="393" y="176" key="Vcs.Push.Dialog.v2" timestamp="1577343390616">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="393" y="176" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1577343390616" />
     <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1575808401780" />
     <state x="759" y="297" key="chooseDestDirectoryDialog" timestamp="1575801992514">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="759" y="297" key="chooseDestDirectoryDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1575801992514" />
-    <state x="640" y="343" key="com.intellij.ide.util.TipDialog" timestamp="1575899376204">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="455" y="240" key="com.intellij.ide.util.TipDialog" timestamp="1577343559284">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
+    <state x="455" y="240" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1577343559284" />
     <state x="640" y="343" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1575899376204" />
     <state x="626" y="310" key="git4idea.merge.GitPullDialog" timestamp="1575805618833">
       <screen x="0" y="0" width="1920" height="1040" />

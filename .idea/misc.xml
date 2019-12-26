@@ -16,6 +16,7 @@
         <option value="$PROJECT_DIR$/eureka-comsumer-feign/pom.xml" />
         <option value="$PROJECT_DIR$/hystrix-dashboard/pom.xml" />
         <option value="$PROJECT_DIR$/turbin/pom.xml" />
+        <option value="$PROJECT_DIR$/eureka-consumer-feign/pom.xml" />
       </list>
     </option>
   </component>
